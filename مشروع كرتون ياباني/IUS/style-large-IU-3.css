@@ -1,0 +1,1611 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Amiri:ital@1&family=Cairo:wght@800&family=Dongle&family=Kufam:wght@700&family=Mada:wght@900&family=Oswald:wght@600&family=Supermercado+One&display=swap');
+body {
+    background-color: #4A434A;
+    background-image:url(images/backgraound.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+    width:170px;
+    height:100px;
+    line-height:2em;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+}
+
+
+header {
+    background-color: rgb(233, 233, 233);
+    height: 71px;
+    width: 1340px;
+    border-radius: 15px;
+}
+
+.logo {
+    height: 71px;
+    width: 71px;
+    border-radius: 15px;
+}
+
+  nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 17px;
+      font-family: 'Courier New', Courier, monospace;
+      position: relative;
+  }
+
+  .btn-2 {
+    font-family: 'Cairo', sans-serif;
+      height: 70px;
+      width: 210px;
+      border: none;
+      color: rgb(0, 0, 0);
+      border-radius: 15px;
+      transition: ease-out 0.3s;
+      font-size: 1rem;
+      outline: none;border: 1px solid #42fbf2;
+      position: relative;
+      z-index: 1;
+    left: 900px;
+      bottom: 140px;
+      
+  }
+
+  .btn-2:hover {
+      color: #fff;
+      cursor: pointer;
+  }
+
+  .btn-2:before {
+      transition: 0.5s all ease;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      opacity: 0;
+      content: "";
+      background-color: #42FBF2;
+      border-radius: 15px;
+  }
+
+  .btn-2:hover:before {
+      transition: 0.5s all ease;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      z-index: -1;
+  }
+
+  .btn-1 {
+    font-family: 'Cairo', sans-serif;
+      height: 70px;
+      width: 210px;
+      border: none;
+      color: rgb(0, 0, 0);
+      border-radius: 15px;
+      transition: ease-out 0.3s;
+      font-size: 1rem;
+      outline: none;border: 1px solid #42FBF2;
+      position: relative;
+      z-index: 1;
+      bottom: 70px;
+      left: 1130px;
+  }
+
+  .btn-1:hover {
+      color: #fff;
+      cursor: pointer;
+  }
+
+  .btn-1:before {
+      transition: 0.5s all ease;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      opacity: 0;
+      content: "";
+      background-color: #42FBF2;
+      border-radius: 15px;
+  }
+
+  .btn-1:hover:before {
+      transition: 0.5s all ease;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      z-index: -1;
+  }
+  
+  .search-box{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato' !important; 
+    
+  }
+  .search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    bottom: 281px;
+    left: 100px;
+  }
+  .input-search{
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color:rgb(44, 44, 44);
+    font-family: 'Oswald', sans-serif;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;    
+  }
+
+
+  .btn-search:hover {
+    color:  #032059;
+    cursor: pointer;
+  }
+
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+  .btn-3 {
+    font-family: 'Cairo', sans-serif;
+      height: 70px;
+      width: 210px;
+      border: none;
+      color: rgb(0, 0, 0);
+      border-radius: 15px;
+      transition: ease-out 0.3s;
+      font-size: 1rem;
+      outline: none;border: 1px solid #42fbf2;
+      position: relative;
+      z-index: 1;
+    left: 670px;
+      bottom: 210px;
+      
+  }
+
+  .btn-3:hover {
+      color: #fff;
+      cursor: pointer;
+  }
+
+  .btn-3:before {
+      transition: 0.5s all ease;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      opacity: 0;
+      content: "";
+      background-color: #42FBF2;
+      border-radius: 15px;
+  }
+
+  .btn-3:hover:before {
+      transition: 0.5s all ease;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      z-index: -1;
+  }
+
+  main {
+      height: 1300px;
+      width: 0px;
+      color: white;
+      background-color: #6e6e6e5e;
+      position: relative;
+      left: 175px;
+      bottom: 0px;
+      border-radius: 15px;
+  }
+
+  .maine {
+      position: absolute;
+      bottom: 955px;
+  }
+
+
+  .cardimages {
+      max-width: 100%;
+      width: 160px;
+      height: 210px;
+      object-fit: contain;
+      position: relative;
+      bottom: 0px;
+      opacity: 1;
+      transition: ease opacity 0.3s;
+  }
+
+  .parents {
+            opacity: 1;
+      transition: ease opacity 0.3s;
+      position: relative;
+      left: 150px;
+      bottom: 1900px;
+      }
+      
+  .cardimages:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+  .vid-1 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+    .vid-1:hover {
+        color: rgb(133, 133, 133);
+        cursor: pointer;
+    }
+    .vid-1:before {
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: "";
+        background-color: #42FBF2;
+    }
+    .vid-1:hover:before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius: 13px;
+    }
+
+  .name-1 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 21px;
+  }
+
+  .vid-2 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 610px;
+    top: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-2:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-2:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-2:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-2 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 17px;
+  position: relative;
+  bottom: 8px;
+  left: 0.3px;
+  text-align: center;
+  width: 160px;
+
+}
+
+.vid-3 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-3:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-3:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-3:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-3 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 11px;
+  right: 4px;
+  width: 160px;
+  height: 4px;
+    text-align: center;
+}
+
+.vid-4 {
+  height: 250px;
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  left: 230px;
+   top: 10px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  transition: ease-out 0.3s;
+  outline: none;border: 3px solid #42fbf2;
+  z-index: 1;
+}
+
+.vid-4:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-4:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-4:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-4 {
+font-family: 'Dongle', sans-serif;
+font-size: 15px;
+position: relative;
+bottom: 16px;
+height: 8px;
+text-align: center;
+
+}
+
+.vid-5 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+  }
+
+  .vid-5:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-5:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-5:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+  
+  .name-5 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 23px;
+  position: relative;
+  bottom: 18px;
+  text-align: center;
+  width: 170px;
+  right: 6px;
+  }
+
+  .vid-6 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    top: 280px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-6:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-6:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-6:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+  .name-6 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .vid-7 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 610px;
+    top: 280px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-7:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-7:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-7:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-7 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 18px;
+  position: relative;
+  bottom: 25px;
+    right: 50%;
+  text-align: center;
+  width: 110px;
+
+}
+
+.vid-8 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 280px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-8:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-8:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-8:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-8 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 18px;
+    right: 100px;
+  width: 120px;
+}
+
+.vid-9 {
+  height: 250px;
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  left: 230px;
+  top: 280px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  transition: ease-out 0.3s;
+  outline: none;border: 3px solid #42fbf2;
+  z-index: 1;
+}
+.vid-9:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-9:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-9:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-9 {
+font-family: 'Dongle', sans-serif;
+font-size: 25px;
+position: relative;
+bottom: 24px;
+text-align: center;
+
+}
+
+.vid-10 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 40px;
+    top: 280px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+  }
+  .vid-10:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-10:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-10:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+  
+  .name-10 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 14px;
+  position: relative;
+  bottom: 8px;
+  text-align: center;
+  width: 140px;
+  right: 19px;
+  }
+
+  .vid-11 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    top: 550px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+    .vid-11:hover {
+        color: rgb(133, 133, 133);
+        cursor: pointer;
+    }
+    .vid-11:before {
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: "";
+        background-color: #42FBF2;
+    }
+    .vid-11:hover:before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        border-radius: 13px;
+    }
+
+  .name-11 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 17px;
+  }
+
+  .vid-12 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 610px;
+    top: 550px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-12:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-12:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-12:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-12 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  position: relative;
+  bottom: 24px;
+  left: 0px;
+  text-align: center;
+  width: 160px;
+
+}
+
+.vid-13 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 550px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-13:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-13:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-13:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-13 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 27px;
+  position: relative;
+  bottom: 24px;
+  width: 110px;
+}
+
+.vid-14 {
+  height: 250px;
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  left: 230px;
+  top: 550px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  transition: ease-out 0.3s;
+  outline: none;border: 3px solid #42fbf2;
+  z-index: 1;
+}
+
+.vid-14:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-14:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-14:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-14 {
+font-family: 'Dongle', sans-serif;
+font-size: 25px;
+position: relative;
+bottom: 22px;
+text-align: center;
+
+}
+
+.vid-15 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 40px;
+    top: 550px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+  }
+
+  .vid-15:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-15:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-15:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+  
+  .name-15 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 23px;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  width: 170px;
+  right: 6px;
+  }
+
+  .vid-16 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    top: 820px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-16:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-16:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-16:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+  .name-16 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+    position: relative;
+    bottom: 24px;
+  }
+
+  .vid-17 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 610px;
+    top: 820px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-17:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-17:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-17:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-17 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 19px;
+  position: relative;
+  bottom: 13px;
+  text-align: center;
+  width: 145px;
+
+}
+
+.vid-18 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 820px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-18:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-18:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-18:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-18 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 28px;
+  position: relative;
+  bottom: 28px;
+  left: 10px;
+  width: 130px;
+}
+
+.vid-19 {
+  height: 250px;
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  left: 230px;
+  top: 820px;
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  transition: ease-out 0.3s;
+  outline: none;border: 3px solid #42fbf2;
+  z-index: 1;
+}
+.vid-19:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-19:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-19:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-19 {
+font-family: 'Dongle', sans-serif;
+font-size: 16px;
+position: relative;
+bottom: 10px;
+text-align: center;
+
+}
+
+.vid-20 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 40px;
+    top: 820px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+  }
+  .vid-20:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-20:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-20:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+  
+  .name-20 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 23px;
+  position: relative;
+  bottom: 18px;
+  text-align: center;
+  width: 170px;
+  right: 6px;
+  }
+
+  .vid-21 {
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 1090px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    outline: none;border: 3px solid #42fbf2;
+    z-index: 1;
+}
+
+.vid-21:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.vid-21:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+.vid-21:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.name-21 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 19px;
+  position: relative;
+  bottom: 12px;
+  right: 3px;
+  width: 160px;
+}
+  
+
+
+  footer {
+      height: 300px;
+      width: 1350px;
+      background-color: #022340;
+      align-items: center;
+      position: absolute;
+      left: 0px;
+      bottom: 100px;
+  }
+
+    footer {
+        /* نص */
+        font-family: 'Oswald', sans-serif;
+        font-size: 6px;
+        letter-spacing: 1px;
+    }
+    .end_logo {
+        height: 80px;
+        width: 80px;
+        border-radius: 15px;
+        position: relative;
+        top: 30px;
+        left: 1220px;
+        z-index: 1;
+    }
+        end {
+        position: absolute;
+        left: 490px;
+        height: 20px;
+        top: 270px;
+    }
+    h2 {
+        /*النص الكبير (الشرح)*/
+        position: relative;
+        bottom: 15px;
+        left: 10px;
+        color: #F2F2F2;
+        z-index: 1;
+        width: 320px;
+        }
+        inform {
+            /*البوكس الصغير بالنهاية*/
+            height: 130px;
+            width: 130px;
+            background-color: #195c5a9a;
+            position: absolute;
+            top: 1565px;
+            left: 69px;
+            border-radius: 15px;
+            z-index: 1;
+        }
+
+        .informe {
+            /*اعدادات الكتابة*/
+            height: 130px;
+            position: absolute;
+            top: 1482px;
+            left: 150px;
+            border-radius: 15px;
+        }
+
+        .informaition {
+            color: #F2F2F2;
+            text-align: right;
+            position: relative;
+            left: 850px;
+            top: 110px;
+            font-size: 12px;
+            z-index: 1;
+            width: 300px;
+        }
+
+        .linke {
+            font-family: 'Kufam', sans-serif;
+            font-size: 15px;
+            position: absolute;
+            top: 1503px;
+            left: 100px;
+            color: white;
+            z-index: 1;
+        }
+        
+        .linkes_1 {
+            /*روابط في النهاية */
+            color: #F2F2F2;
+            font-size: 12px;
+            font-family: 'Dongle', sans-serif;
+            position: absolute;
+            top: 1570px;
+            left: 135px;
+            width: 100px;
+            height: 20px;
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        .linkes_2 {
+            /*روابط في النهاية */
+            color: #F2F2F2;
+            font-size: 12px;
+            font-family: 'Dongle', sans-serif;
+            position: absolute;
+            top: 1620px;
+            left: 90px;
+            width: 110px;
+            height: 20px;
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        .linkes_3 {
+            /*روابط في النهاية */
+            color: #F2F2F2;
+            font-size: 12px;
+            font-family: 'Dongle', sans-serif;
+            position: absolute;
+            top: 1670px;
+            left: 180px;
+            width: 100px;
+            height: 20px;
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        .social {
+            font-family: 'Kufam', sans-serif;
+            font-size: 15px;
+            position: absolute;
+            top: 1630px;
+            left: 601px;
+            width: 100px;
+            color: white;
+        }
+
+        .youtube {
+            color: #F2F2F2;
+            position: absolute;
+            top: 1700px;
+            left: 590px;
+            font-size: 30px;
+        }
+
+        .instgram {
+            color: #F2F2F2;
+            position: absolute;
+            top: 1700px;
+            left: 690px;
+            font-size: 30px;
+        }
+
+        .decore {
+            width: 1350px;
+            height: 300px;
+            position: absolute;
+            top: 1478px;
+            z-index: -.9;
+            color: rgb(0, 0, 0);
+        }
+
+        .decore-IU {
+            height: 1350px;
+            width: 900px;
+            position: absolute;
+            left: 50px;
+            border-radius: 30px;
+            top: 20px;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .anime-1{
+            position: absolute;
+            left: 695px;
+            top: 40px;
+            height: 300px;
+            object-fit: contain;
+            position: relative;
+            bottom: 0px;
+            border-radius: 30px;
+            outline-color: rgb(255, 255, 255);
+            outline-style: groove;
+            outline-width: 8px;
+            opacity: 1;
+            transition: ease opacity 0.3s;
+        }
+
+        h4 {
+            /*اسم الانمي*/
+            color: rgba(0, 0, 0, 0.849);
+            width: 600px;
+            font-size: 30px;
+            position: relative;
+            bottom: 300px;
+            left: 70px;
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+            
+        }
+
+        h5 {
+            /*تقييم الأنمي*/
+            color: rgba(0, 0, 0, 0.849);
+            width: 300px;
+            font-size: 25px;
+            position: relative;
+            bottom: 220px;
+            left: 360px;
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+        }
+
+        h6 {
+            /*نوع الأنمي*/
+            color: rgba(0, 0, 0, 0.849);
+            width: 400px;
+            font-size: 25px;
+            position: relative;
+            bottom: 400px;
+            text-align: right;
+            left: 180px;
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+        }
+
+        about-anime {
+            /*تصنيف الأنمي*/
+            color: rgba(0, 0, 0, 0.849);
+            height: 30px;
+            font-size: 25px;
+            position: relative;
+            bottom: 290px;
+            left: 390px;
+            text-align: right;
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+        }
+
+        .anime_inform {
+            /*نبذة عن الأنمي*/
+            color: rgba(0, 0, 0, 0.849);
+            font-size: 30px;
+            width: 800px;
+            height: 10px;
+            position: relative;
+            bottom: 150px;
+            left: 80px;
+            text-align: right;
+            padding: 10 px;
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+        }
+
+        points {
+            text-align: center;
+            font-size: 100px;
+            color: black;
+            position: relative;
+            left: 440px;
+            bottom: 310px;
+        }
+
+        point {
+            text-align: center;
+            font-size: 100px;
+            color: black;
+            position: relative;
+            left: 440px;
+            bottom: 10px;
+        }
+
+        .table-1 {
+            width: 400px;
+            color: black;
+            text-align: right;
+            font-size: 20px;
+            position: absolute;
+            left: 500px;
+            bottom: 0px;
+            text-decoration: none;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        th, td , caption{
+            text-align: right;
+            font-family: 'Supermercado One', sans-serif;
+        }
+
+        caption {
+            font-size: 25px;
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+        }
+
+        .table-2 {
+            position: absolute;
+            left: 101px;
+            top: 844px;
+            width: 400px;
+            color: black;
+            text-align: right;
+            font-size: 20px;
+            position: absolute;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+            font-family: 'Mada', 'Supermercado One', sans-serif;
+            width: 250px;
+            position: relative;
+            top: 490px;
+            left: 385px;
+        }
